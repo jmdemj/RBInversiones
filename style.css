@@ -1,0 +1,42 @@
+body, html{
+    height: 100%;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.bg-image{
+    background-image: url(nyc3.jpg)
+}
+
+.logo-img{
+    max-width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 5rem;
+}
+
+.container form div{
+    text-decoration: red;
+}
+
+@media (max-width: 640px){
+    .bg-image{
+        background-position: 700px 1000px;
+    }
+}
+
+@media (max-width: 768px){
+    .bg-image{
+        background-position: 900px 1000px;
+    }
+}
+
+@media (max-width: 1024px){
+    .bg-image{
+        background-position: 1050px 1000px;
+    }
+}
