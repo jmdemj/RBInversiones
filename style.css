@@ -23,9 +23,20 @@ body, html{
     text-decoration: red;
 }
 
+.MP{
+    padding: 30px;
+    text-align: center;
+}
+
+@media (max-width: 320px){
+    .bg-image{
+        background-position: 1000px 1000px;
+    }
+}
+
 @media (max-width: 640px){
     .bg-image{
-        background-position: 700px 1000px;
+        background-position: 500px 1000px;
     }
 }
 
